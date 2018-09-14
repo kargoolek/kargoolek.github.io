@@ -1,17 +1,17 @@
-/*HEROKU PART
+//HEROKU PART
 
 $(document).ready(function() {
 
- var apiRoot = 'https://evening-dawn-84734.herokuapp.com/v1/';
-  const trelloApiRoot = 'https://evening-dawn-84734.herokuapp.com/v1/trello/';
-
-*/ //HEROKU PART END
-
-  /**/ $(document).ready(function() {
-    const apiRoot = 'http://localhost:8080/v1/';
-    const trelloApiRoot = 'http://localhost:8080/v1/trello/'; //*//
-    const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
-    const $tasksContainer = $('[data-tasks-container]');
+  var apiRoot = 'https://evening-dawn-84734.herokuapp.com/v1/';
+   const trelloApiRoot = 'https://evening-dawn-84734.herokuapp.com/v1/trello/';
+ 
+ //HEROKU PART END
+ 
+   /* $(document).ready(function() {
+     const apiRoot = 'http://localhost:8080/v1/';
+     const trelloApiRoot = 'http://localhost:8080/v1/trello/'; */
+     const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
+     const $tasksContainer = $('[data-tasks-container]');
   
     var availableBoards = {};
     var availableTasks = {};
