@@ -2,8 +2,8 @@
 
 $(document).ready(function() {
 
-  var apiRoot = 'https://evening-dawn-84734.herokuapp.com/v1/';
-   const trelloApiRoot = 'https://evening-dawn-84734.herokuapp.com/v1/trello/';
+  var apiRoot = 'http://kargoolek.usermd.net:42430/crud/v1/';
+   const trelloApiRoot = 'http://kargoolek.usermd.net:42430/crud/v1/trello/';
  
  //HEROKU PART END
  
